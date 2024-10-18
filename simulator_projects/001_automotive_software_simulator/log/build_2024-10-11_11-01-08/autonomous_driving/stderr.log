@@ -1,0 +1,32 @@
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:125:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  125 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const VehicleOutput&, const PolyfitLaneDataArray&)[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:185:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvehicle_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  185 | ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay([01;35m[Kconst ad_msgs::msg::VehicleOutput &vehicle_state[m[K,
+      |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:186:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoly_lanes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  186 |                                                                 [01;35m[Kconst ad_msgs::msg::PolyfitLaneDataArray &poly_lanes[m[K) {
+      |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::LateralControl(const VehicleOutput&, const PolyfitLaneData&)[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:202:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvehicle_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  202 | void AutonomousDriving::LateralControl([01;35m[Kconst ad_msgs::msg::VehicleOutput &vehicle_state[m[K,
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:203:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdriving_way[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  203 |                                        [01;35m[Kconst ad_msgs::msg::PolyfitLaneData &driving_way[m[K) {
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::LongitudinalControl(const VehicleOutput&, const PolyfitLaneData&, const double&)[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:216:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvehicle_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  216 | void AutonomousDriving::LongitudinalControl([01;35m[Kconst ad_msgs::msg::VehicleOutput& vehicle_state[m[K,
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:217:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdriving_way[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  217 |                                             [01;35m[Kconst ad_msgs::msg::PolyfitLaneData& driving_way[m[K,
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:218:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klimit_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  218 |                                             [01;35m[Kconst double& limit_speed[m[K) {
+      |                                             [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/src/autonomous_driving.cpp:226:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  226 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K

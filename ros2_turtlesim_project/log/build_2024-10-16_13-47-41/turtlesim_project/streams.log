@@ -1,0 +1,74 @@
+[0.007s] Invoking command in '/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project:/opt/ros/humble PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/src/turtlesim_project -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.165s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.238s] -- Detecting CXX compiler ABI info - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.243s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.354s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.397s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.419s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.452s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.455s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.461s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.520s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.522s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.603s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.627s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.660s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.668s] -- Looking for pthread.h
+[0.728s] -- Looking for pthread.h - found
+[0.728s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.787s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.788s] -- Found Threads: TRUE  
+[0.830s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.840s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.874s] -- Found custom_interfaces: 0.0.1 (/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces/share/custom_interfaces/cmake)
+[0.885s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.966s] -- Configuring done
+[0.980s] -- Generating done
+[0.982s] -- Build files have been written to: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project
+[0.990s] Invoked command in '/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project' returned '0': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project:/opt/ros/humble PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/src/turtlesim_project -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project
+[0.991s] Invoking command in '/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project:/opt/ros/humble PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project -- -j12 -l12
+[1.034s] [ 50%] [32mBuilding CXX object CMakeFiles/color_changer.dir/src/color_changer.cpp.o[0m
+[1.034s] [ 50%] [32mBuilding CXX object CMakeFiles/moving_turtle.dir/src/moving_turtle.cpp.o[0m
+[1.034s] [ 50%] [32mBuilding CXX object CMakeFiles/hmi.dir/src/hmi.cpp.o[0m
+[4.496s] [ 66%] [32m[1mLinking CXX executable moving_turtle[0m
+[4.657s] [ 66%] Built target moving_turtle
+[8.337s] [ 83%] [32m[1mLinking CXX executable color_changer[0m
+[8.680s] [ 83%] Built target color_changer
+[13.643s] [100%] [32m[1mLinking CXX executable hmi[0m
+[14.254s] [100%] Built target hmi
+[14.263s] Invoked command in '/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project' returned '0': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project:/opt/ros/humble PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project -- -j12 -l12
+[14.290s] Invoking command in '/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project:/opt/ros/humble PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project
+[14.296s] -- Install configuration: ""
+[14.296s] -- Execute custom install script
+[14.297s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/lib/turtlesim_project/moving_turtle
+[14.304s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/lib/turtlesim_project/color_changer
+[14.311s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/lib/turtlesim_project/hmi
+[14.318s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project//launch/turtlesim_project.launch.xml
+[14.325s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/ament_index/resource_index/package_run_dependencies/turtlesim_project
+[14.331s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/ament_index/resource_index/parent_prefix_path/turtlesim_project
+[14.338s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/environment/ament_prefix_path.sh
+[14.345s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/environment/ament_prefix_path.dsv
+[14.353s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/environment/path.sh
+[14.360s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/environment/path.dsv
+[14.367s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/local_setup.bash
+[14.374s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/local_setup.sh
+[14.381s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/local_setup.zsh
+[14.387s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/local_setup.dsv
+[14.394s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/package.dsv
+[14.401s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/ament_index/resource_index/packages/turtlesim_project
+[14.408s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/cmake/turtlesim_projectConfig.cmake
+[14.414s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/cmake/turtlesim_projectConfig-version.cmake
+[14.421s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project/share/turtlesim_project/package.xml
+[14.430s] Invoked command in '/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project' returned '0': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces:/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/turtlesim_project:/opt/ros/humble PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/turtlesim_project

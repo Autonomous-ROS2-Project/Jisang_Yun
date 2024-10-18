@@ -1,0 +1,27 @@
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/bsw/system/interface/interface_lane.cpp:[m[K In member function ‘[01m[Kbool SLanes::ImportLaneCsvFile(std::string)[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/bsw/system/interface/interface_lane.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnLaneID[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     int [01;35m[KnLaneID[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kvoid EvaluationAlgorithm::LoadLaneData()[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:36:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLane>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   36 |     for (auto i_lane = 0; [01;35m[Ki_lane < ref_csv_lane.m_vecLanes.size()[m[K; i_lane++) {
+      |                           [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:39:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLanePoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   39 |                     [01;35m[Ki_point < ref_csv_lane.m_vecLanes[i_lane].m_vecLanePoint.size()[m[K;
+      |                     [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kdouble EvaluationAlgorithm::SetLimitSpeedSigns(const interface::VehicleState&)[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<TargetSpeedPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   53 |     for (auto i = 0; [01;35m[Ki < param_limit_speed_signs_.size()[m[K; i++) {
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kdouble EvaluationAlgorithm::SetMasterSpeedSigns(const interface::VehicleState&)[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:67:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<TargetSpeedPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   67 |     for (auto i = 0; [01;35m[Ki < param_master_target_speed_signs_.size()[m[K; i++) {
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kvoid EvaluationAlgorithm::CalcCrossTrackError(const interface::VehicleState&, const double&)[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:101:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  101 |     for (auto i = 0; [01;35m[Ki < o_ref_lane_.point.size()[m[K; i++) {
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_node.cpp:[m[K In member function ‘[01m[Kvoid Evaluation::Publish(const rclcpp::Time&)[m[K’:
+[01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_node.cpp:189:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  189 | void Evaluation::Publish([01;35m[Kconst rclcpp::Time& current_time[m[K) {
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K

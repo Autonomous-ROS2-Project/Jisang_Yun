@@ -1,0 +1,1 @@
+/home/jsyun/ros2_turtle_project/build/turtle_interfaces/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/color_rgb__rosidl_typesupport_fastrtps_c.h

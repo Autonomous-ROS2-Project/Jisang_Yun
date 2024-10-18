@@ -1,0 +1,96 @@
+[0.008s] Invoking command in '/home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.161s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.243s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.363s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.413s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.434s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.468s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.478s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.540s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.620s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.643s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.687s] -- Looking for pthread.h
+[0.749s] -- Looking for pthread.h - found
+[0.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.815s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.816s] -- Found Threads: TRUE  
+[0.859s] -- Found ad_msgs: 0.0.0 (/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/share/ad_msgs/cmake)
+[0.930s] -- Found rviz_2d_overlay_msgs: 1.3.0 (/opt/ros/humble/share/rviz_2d_overlay_msgs/cmake)
+[0.942s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.950s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.038s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem 
+[1.095s] -- Configuring done
+[1.112s] -- Generating done
+[1.114s] -- Build files have been written to: /home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation
+[1.128s] Invoked command in '/home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation' returned '0': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation
+[1.129s] Invoking command in '/home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation -- -j12 -l12
+[1.174s] [ 25%] [32mBuilding CXX object CMakeFiles/evaluation.dir/home/jsyun/Programming/ROS2/automotive_software_simulator/src/bsw/system/interface/interface_lane.cpp.o[0m
+[1.174s] [ 50%] [32mBuilding CXX object CMakeFiles/evaluation.dir/src/evaluation_node.cpp.o[0m
+[1.175s] [ 75%] [32mBuilding CXX object CMakeFiles/evaluation.dir/src/evaluation_algorithm.cpp.o[0m
+[2.398s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/bsw/system/interface/interface_lane.cpp:[m[K In member function ‘[01m[Kbool SLanes::ImportLaneCsvFile(std::string)[m[K’:
+[2.398s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/bsw/system/interface/interface_lane.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnLaneID[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.398s]    26 |     int [01;35m[KnLaneID[m[K = 0;
+[2.398s]       |         [01;35m[K^~~~~~~[m[K
+[2.503s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kvoid EvaluationAlgorithm::LoadLaneData()[m[K’:
+[2.503s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:36:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLane>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.504s]    36 |     for (auto i_lane = 0; [01;35m[Ki_lane < ref_csv_lane.m_vecLanes.size()[m[K; i_lane++) {
+[2.504s]       |                           [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.504s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:39:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLanePoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.504s]    39 |                     [01;35m[Ki_point < ref_csv_lane.m_vecLanes[i_lane].m_vecLanePoint.size()[m[K;
+[2.504s]       |                     [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.504s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kdouble EvaluationAlgorithm::SetLimitSpeedSigns(const interface::VehicleState&)[m[K’:
+[2.504s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<TargetSpeedPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.504s]    53 |     for (auto i = 0; [01;35m[Ki < param_limit_speed_signs_.size()[m[K; i++) {
+[2.505s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.505s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kdouble EvaluationAlgorithm::SetMasterSpeedSigns(const interface::VehicleState&)[m[K’:
+[2.505s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:67:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<TargetSpeedPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.505s]    67 |     for (auto i = 0; [01;35m[Ki < param_master_target_speed_signs_.size()[m[K; i++) {
+[2.505s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.505s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kvoid EvaluationAlgorithm::CalcCrossTrackError(const interface::VehicleState&, const double&)[m[K’:
+[2.505s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_algorithm.cpp:101:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.505s]   101 |     for (auto i = 0; [01;35m[Ki < o_ref_lane_.point.size()[m[K; i++) {
+[2.505s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.971s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_node.cpp:[m[K In member function ‘[01m[Kvoid Evaluation::Publish(const rclcpp::Time&)[m[K’:
+[3.971s] [01m[K/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/evaluation/src/evaluation_node.cpp:189:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.971s]   189 | void Evaluation::Publish([01;35m[Kconst rclcpp::Time& current_time[m[K) {
+[3.971s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.898s] [100%] [32m[1mLinking CXX executable evaluation[0m
+[10.342s] [100%] Built target evaluation
+[10.355s] Invoked command in '/home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation' returned '0': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation -- -j12 -l12
+[10.385s] Invoking command in '/home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation
+[10.392s] -- Install configuration: ""
+[10.392s] -- Execute custom install script
+[10.393s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/lib/evaluation/evaluation
+[10.403s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/launch/evaluation.launch.xml
+[10.412s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/ament_index/resource_index/package_run_dependencies/evaluation
+[10.423s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/ament_index/resource_index/parent_prefix_path/evaluation
+[10.433s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/environment/ament_prefix_path.sh
+[10.442s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/environment/ament_prefix_path.dsv
+[10.452s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/environment/path.sh
+[10.461s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/environment/path.dsv
+[10.471s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/local_setup.bash
+[10.480s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/local_setup.sh
+[10.489s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/local_setup.zsh
+[10.499s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/local_setup.dsv
+[10.509s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/package.dsv
+[10.518s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/ament_index/resource_index/packages/evaluation
+[10.529s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/cmake/evaluationConfig.cmake
+[10.538s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/cmake/evaluationConfig-version.cmake
+[10.548s] -- Symlinking: /home/jsyun/Programming/ROS2/automotive_software_simulator/install/evaluation/share/evaluation/package.xml
+[10.560s] Invoked command in '/home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation' returned '0': AMENT_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jsyun/Programming/ROS2/automotive_software_simulator/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jsyun/Programming/ROS2/automotive_software_simulator/build/evaluation

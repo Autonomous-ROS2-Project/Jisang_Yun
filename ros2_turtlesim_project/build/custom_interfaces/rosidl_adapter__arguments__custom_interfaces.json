@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/src/custom_interfaces:msg/Sphere.msg",
+    "/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/src/custom_interfaces:msg/TurtleColor.msg",
+    "/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/src/custom_interfaces:msg/TurtleState.msg"
+  ]
+}

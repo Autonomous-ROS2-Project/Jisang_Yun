@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jsyun/ros2_turtle_project/build/turtle_controller/moving_turtle" "/home/jsyun/ros2_turtle_project/build/turtle_controller/color_changer" "/home/jsyun/ros2_turtle_project/build/turtle_controller/hmi" "TARGETS" "moving_turtle" "color_changer" "hmi" "DESTINATION" "lib/turtle_controller")
