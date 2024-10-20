@@ -18,11 +18,13 @@
 AutonomousDriving::AutonomousDriving(const std::string &node_name, const double &loop_rate,
                                      const rclcpp::NodeOptions &options)
     : Node(node_name, options),
+      // START REUSABLE SECTION
       target_speeds_{30, 60, 90, 70, 50, 30, 100, 50, 100},
       current_speed_index_(0),
       last_speed_change_time_(this->now()),
-      pid_last_time(this->now()) {
-
+      pid_last_time(this->now())
+      // END REUSABLE SECTION
+{
     RCLCPP_WARN(this->get_logger(), "Initialize node...");
 
     // QoS init
@@ -114,8 +116,10 @@ AutonomousDriving::AutonomousDriving(const std::string &node_name, const double 
         "vehicle_command", qos_profile);
     p_driving_way_ = this->create_publisher<ad_msgs::msg::PolyfitLaneData>(
         "driving_way", qos_profile);
+    // START REUSABLE SECTION
     p_limit_speed_data_ = this->create_publisher<std_msgs::msg::Float64>("limit_speed_data", 10);
     p_ego_velocity_ = this->create_publisher<std_msgs::msg::Float64>("ego/vehicle_state/velocity", 10);
+    // END REUSABLE SECTION
 
     // Initialize
     Init(this->now());
@@ -164,6 +168,7 @@ void AutonomousDriving::Run(const rclcpp::Time &current_time) {
     ad_msgs::msg::PolyfitLaneData driving_way;
 
     if (!param_use_manual_inputs_) {
+        // START REUSABLE SECTION
         PID(current_time, target_speed, vehicle_state.velocity);
 
         if (computed_input >= 0.0) {
@@ -186,6 +191,7 @@ void AutonomousDriving::Run(const rclcpp::Time &current_time) {
 
         RCLCPP_INFO(this->get_logger(), "Target speed index: %zu, Target speed: %f, Current speed: %f", 
                     current_speed_index_, target_speed, vehicle_state.velocity);
+        // END REUSABLE SECTION
     }
 
     // Update output
@@ -201,6 +207,7 @@ void AutonomousDriving::Publish(const rclcpp::Time &current_time) {
     p_driving_way_->publish(o_driving_way_);
 }
 
+// START REUSABLE SECTION
 void AutonomousDriving::PID(const rclcpp::Time& current_time, double target_value, double current_value) {
     double dt = (current_time - pid_last_time).seconds();
 
@@ -219,6 +226,7 @@ void AutonomousDriving::PID(const rclcpp::Time& current_time, double target_valu
     e_prev = e;
     pid_last_time = current_time;
 }
+// END REUSABLE SECTION
 
 void AutonomousDriving::CallbackManualInput(const ad_msgs::msg::VehicleInput::SharedPtr msg) {            
     mutex_manual_input_.lock();
@@ -239,6 +247,7 @@ void AutonomousDriving::CallbackVehicleState(const ad_msgs::msg::VehicleOutput::
 void AutonomousDriving::CallbackLimitSpeed(const std_msgs::msg::Float32::SharedPtr msg) {            
     mutex_limit_speed_.lock();
     
+    // START REUSABLE SECTION
     // Update target speed sequence
     if ((this->now() - last_speed_change_time_).seconds() >= 10.0) {  // Change speed every 10 seconds
         current_speed_index_ = (current_speed_index_ + 1) % target_speeds_.size();
@@ -249,6 +258,7 @@ void AutonomousDriving::CallbackLimitSpeed(const std_msgs::msg::Float32::SharedP
         // Use the received limit speed only if we're not changing to the next target speed
         i_limit_speed_ = msg->data;
     }
+    // END REUSABLE SECTION
     
     mutex_limit_speed_.unlock();
 }
