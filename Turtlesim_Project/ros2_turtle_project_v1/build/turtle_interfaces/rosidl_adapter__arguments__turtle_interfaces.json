@@ -1,6 +1,0 @@
-{
-  "package_name": "turtle_interfaces",
-  "non_idl_tuples": [
-    "/home/jsyun/ros2_turtle_project/src/turtle_interfaces:msg/ColorRGB.msg"
-  ]
-}

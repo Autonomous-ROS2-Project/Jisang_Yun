@@ -1,8 +1,0 @@
-[01m[K/home/jsyun/Programming/ROS2/automotive_software_lecture/simulator_projects/002_automotive_software_lon/src/app/simulator/src/vehicle/vehicle_simulator_node.cpp:[m[K In member function ‘[01m[Kvoid Vehicle::Publish(const rclcpp::Time&)[m[K’:
-[01m[K/home/jsyun/Programming/ROS2/automotive_software_lecture/simulator_projects/002_automotive_software_lon/src/app/simulator/src/vehicle/vehicle_simulator_node.cpp:116:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  116 | void Vehicle::Publish([01;35m[Kconst rclcpp::Time& current_time[m[K) {
-      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
-[01m[K/home/jsyun/Programming/ROS2/automotive_software_lecture/simulator_projects/002_automotive_software_lon/src/app/simulator/src/display/display_node.cpp:[m[K In member function ‘[01m[Kvoid Display::Init(const rclcpp::Time&)[m[K’:
-[01m[K/home/jsyun/Programming/ROS2/automotive_software_lecture/simulator_projects/002_automotive_software_lon/src/app/simulator/src/display/display_node.cpp:76:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   76 | void Display::Init([01;35m[Kconst rclcpp::Time& current_time[m[K) {
-      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K

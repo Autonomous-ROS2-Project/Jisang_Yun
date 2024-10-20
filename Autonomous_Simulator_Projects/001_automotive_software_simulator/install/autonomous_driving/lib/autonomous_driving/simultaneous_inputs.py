@@ -1,1 +1,0 @@
-/home/jsyun/Programming/ROS2/automotive_software_simulator/src/app/autonomous_driving/scripts/simultaneous_inputs.py

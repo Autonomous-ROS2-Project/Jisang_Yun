@@ -1,1 +1,0 @@
-/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/custom_interfaces/rosidl_generator_py/custom_interfaces/msg/_turtle_state.py

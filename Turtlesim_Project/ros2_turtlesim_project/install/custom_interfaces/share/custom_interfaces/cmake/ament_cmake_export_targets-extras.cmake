@@ -1,1 +1,0 @@
-/home/jsyun/Programming/ROS2/automotive_software_lecture/ros2_turtlesim_project/build/custom_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake

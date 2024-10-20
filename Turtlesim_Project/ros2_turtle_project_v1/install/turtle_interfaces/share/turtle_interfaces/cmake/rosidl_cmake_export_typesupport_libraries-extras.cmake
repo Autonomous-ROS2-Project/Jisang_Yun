@@ -1,1 +1,0 @@
-/home/jsyun/ros2_turtle_project/build/turtle_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

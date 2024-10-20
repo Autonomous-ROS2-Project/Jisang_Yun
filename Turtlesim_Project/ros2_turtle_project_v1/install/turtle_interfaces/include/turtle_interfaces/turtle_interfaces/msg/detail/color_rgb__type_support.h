@@ -1,1 +1,0 @@
-/home/jsyun/ros2_turtle_project/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/color_rgb__type_support.h

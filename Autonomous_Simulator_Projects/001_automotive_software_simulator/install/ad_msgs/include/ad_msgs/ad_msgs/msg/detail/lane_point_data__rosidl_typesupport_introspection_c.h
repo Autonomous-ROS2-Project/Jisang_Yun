@@ -1,1 +1,0 @@
-/home/jsyun/Programming/ROS2/automotive_software_simulator/build/ad_msgs/rosidl_typesupport_introspection_c/ad_msgs/msg/detail/lane_point_data__rosidl_typesupport_introspection_c.h

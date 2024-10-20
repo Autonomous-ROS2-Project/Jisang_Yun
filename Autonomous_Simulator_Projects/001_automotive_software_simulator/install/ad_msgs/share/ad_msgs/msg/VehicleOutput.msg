@@ -1,1 +1,0 @@
-/home/jsyun/Programming/ROS2/automotive_software_simulator/src/rte/msg/ad_msgs/msg/VehicleOutput.msg
